@@ -1,0 +1,19 @@
+{
+  "name": "flash_card_learning_app",
+  "version": "1.0.0",
+  "description": "A flash card learning app with the leitner system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SBHattarj/flash_card_learning_app.git"
+  },
+  "author": "SBHattarj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SBHattarj/flash_card_learning_app/issues"
+  },
+  "homepage": "https://github.com/SBHattarj/flash_card_learning_app#readme"
+}
