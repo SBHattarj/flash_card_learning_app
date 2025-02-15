@@ -1,0 +1,54 @@
+.flashcard {
+    width: min(100%, 20em);
+    text-align: center;
+    padding: 1em;
+    aspect-ratio: 1/1.2;
+    background-color: grey;
+}
+.flashcard h3 {
+    font-size: 3em;
+}
+.flashcard > button {
+    font-size: 1.5em;
+    width: 100%;
+    display: block;
+}
+.flashcard > [popover] {
+    padding: 4rem;
+}
+.flashcard > [popover] > p {
+    font-size: 3em;
+    font-weight: bold;
+}
+.flashcard > [popover] > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 2em;
+}
+.flashcard > [popover] > div > form {
+    flex: 1;
+}
+main {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    flex-grow: 1;
+    overflow: auto;
+    width: 100%;
+
+}
+button {
+    font-size: inherit;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
